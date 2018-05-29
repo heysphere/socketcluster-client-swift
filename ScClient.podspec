@@ -84,7 +84,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/sacOO7/socketcluster-client-swift.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/heysphere/socketcluster-client-swift.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -137,5 +137,5 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency "Starscream", "~> 3.0.4"
-  s.dependency "HandyJSON", "~> 4.0.0-beta.1"
+  s.dependency "HandyJSON", "~> 4.1.0"
 end
